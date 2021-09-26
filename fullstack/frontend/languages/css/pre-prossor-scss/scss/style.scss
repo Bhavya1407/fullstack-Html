@@ -1,0 +1,49 @@
+
+@import './parials/varaible';
+@import './parials/text';
+
+
+
+@mixin common{
+    font-size: $size;
+    background-color: $co;
+}
+
+@mixin bhavya($brakfast,$onbed){
+    color: $brakfast;
+    padding-left: $onbed;
+}
+
+#po1{
+   @include common;
+   @include bhavya(red, 10px)
+}
+#po2{
+    @include common;
+    @include bhavya(rgb(30, 255, 0), 10px)
+}
+#po3{
+    @include common;
+    @include bhavya(rgb(145, 68, 68), 10px)
+}
+#po4{
+    @include common;
+    @include bhavya(rgb(200, 255, 0), 10px)
+}
+
+
+
+   
+
+.parent1{
+    h1{
+        background-color: darkturquoise;
+        .child{
+            background-color: darkmagenta;
+            .gchild{
+                background-color: rgb(209, 0, 174);
+            }
+        }
+    }
+}
+

@@ -1,0 +1,40 @@
+#po1 {
+  font-size: 600px;
+  background-color: #b15930;
+  color: red;
+  padding-left: 10px;
+}
+
+#po2 {
+  font-size: 600px;
+  background-color: #b15930;
+  color: #1eff00;
+  padding-left: 10px;
+}
+
+#po3 {
+  font-size: 600px;
+  background-color: #b15930;
+  color: #914444;
+  padding-left: 10px;
+}
+
+#po4 {
+  font-size: 600px;
+  background-color: #b15930;
+  color: #c8ff00;
+  padding-left: 10px;
+}
+
+.parent1 h1 {
+  background-color: darkturquoise;
+}
+
+.parent1 h1 .child {
+  background-color: darkmagenta;
+}
+
+.parent1 h1 .child .gchild {
+  background-color: #d100ae;
+}
+/*# sourceMappingURL=style.css.map */
